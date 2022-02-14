@@ -7,7 +7,6 @@ import java.util.concurrent.Future
 import kotlin.system.measureTimeMillis
 
 class FutureTest {
-
     val executorService = Executors.newFixedThreadPool(4)
 
     fun getFoo(): Int {
