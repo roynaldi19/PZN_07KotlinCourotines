@@ -1,8 +1,7 @@
-package PZN_07KotlinCourotines.`03MultipleThread`
+package PZN_07KotlinCourotines.`05MultipleThread`
 
 import org.junit.jupiter.api.Test
 import java.util.*
-import kotlin.concurrent.thread
 
 class ThreadTest {
 
@@ -41,5 +40,4 @@ class ThreadTest {
         Thread.sleep(3000)
         println("Selesai")
     }
-
 }

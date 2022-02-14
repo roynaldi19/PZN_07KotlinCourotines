@@ -1,14 +1,14 @@
-package PZN_07KotlinCourotines.`04ExcutorService`
+package PZN_07KotlinCourotines.`06MenggunakanExcutorService`
 
 import org.junit.jupiter.api.Test
 import java.util.*
 import java.util.concurrent.Executors
 
-class testSingleThreadPool {
+class testFixThreadPool {
 
     @Test
-    fun testSingleThreadPool(){
-        val executorService = Executors.newSingleThreadExecutor()
+    fun testFixThreadPool(){
+        val executorService = Executors.newFixedThreadPool(4)
         repeat(10){
             val runnable = Runnable {
                 Thread.sleep(1000)

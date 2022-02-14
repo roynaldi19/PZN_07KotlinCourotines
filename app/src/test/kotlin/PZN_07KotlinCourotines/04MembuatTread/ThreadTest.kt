@@ -1,4 +1,4 @@
-package PZN_07KotlinCourotines.`02MembuatTread`
+package PZN_07KotlinCourotines.`04MembuatTread`
 
 import org.junit.jupiter.api.Test
 import java.util.*
@@ -8,14 +8,6 @@ class ThreadTest {
 
     @Test
     fun testNewThread(){
-//        val runnable = Runnable {
-//            println(Date())
-//            Thread.sleep(2000)
-//            println("Finish : ${Date()}")
-//        }
-//        val thread = Thread(runnable)
-//        thread.start()
-
         thread (start = true){
             println(Date())
             Thread.sleep(2000)

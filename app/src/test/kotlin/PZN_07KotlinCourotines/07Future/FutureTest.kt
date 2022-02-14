@@ -1,4 +1,4 @@
-package PZN_07KotlinCourotines.`05Callable`
+package PZN_07KotlinCourotines.`07Future`
 
 import org.junit.jupiter.api.Test
 import java.util.concurrent.Callable
@@ -8,7 +8,7 @@ import kotlin.system.measureTimeMillis
 
 class FutureTest {
 
-    val executorService = Executors.newFixedThreadPool(10)
+    val executorService = Executors.newFixedThreadPool(4)
 
     fun getFoo(): Int {
         Thread.sleep(1000)
