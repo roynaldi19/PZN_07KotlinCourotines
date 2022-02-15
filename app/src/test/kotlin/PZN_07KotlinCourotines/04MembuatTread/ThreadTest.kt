@@ -18,5 +18,4 @@ class ThreadTest {
         Thread.sleep(3000)
         println("Selesai")
     }
-
 }

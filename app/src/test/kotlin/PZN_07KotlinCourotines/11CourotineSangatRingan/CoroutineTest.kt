@@ -38,7 +38,5 @@ class CoroutineTest {
             delay(3000)
         }
         println("Selesai")
-
     }
-    
 }

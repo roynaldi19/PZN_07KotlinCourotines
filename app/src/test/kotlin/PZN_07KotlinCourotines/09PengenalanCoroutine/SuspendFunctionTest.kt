@@ -11,7 +11,6 @@ class SuspendFunctionTest {
         println("Hello : ${Date()} : ${Thread.currentThread().name}")
         delay(2000)
         println("Hello : ${Date()} : ${Thread.currentThread().name}")
-
     }
 
     @Test

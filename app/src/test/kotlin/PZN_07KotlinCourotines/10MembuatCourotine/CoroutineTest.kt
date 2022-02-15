@@ -24,5 +24,4 @@ class CoroutineTest {
         }
         println("Selesai")
     }
-
 }
