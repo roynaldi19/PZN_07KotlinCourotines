@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 class Chanel {
 
     @Test
-    fun testProduce() {
+    fun testProduceChanel() {
         val scope = CoroutineScope(Dispatchers.IO)
         val chanel: ReceiveChannel<Int> = scope.produce {
             repeat(100) {
