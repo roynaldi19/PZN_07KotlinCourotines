@@ -19,7 +19,7 @@ class FlowTest {
 
         runBlocking {
             flow1.collect {
-                println("Received $it")
+                println("Receive $it")
             }
         }
 
