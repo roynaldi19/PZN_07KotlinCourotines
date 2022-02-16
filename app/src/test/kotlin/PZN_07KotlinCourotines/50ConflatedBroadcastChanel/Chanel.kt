@@ -32,7 +32,8 @@ class Chanel {
         }
 
         runBlocking {
-            joinAll(job1, job2)
+            delay(11000)
+            scope.cancel()
         }
 
 
