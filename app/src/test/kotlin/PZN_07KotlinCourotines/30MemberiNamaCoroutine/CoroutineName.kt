@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 class CoroutineName {
 
     @Test
-    fun testName() {
+    fun testCoroutineName() {
         val scope = CoroutineScope(Dispatchers.IO)
         val job = scope.launch(CoroutineName("parent")) {
             println("Run in thread : ${Thread.currentThread().name}")
